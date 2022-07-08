@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Grupo1 Pastelería San Tallarín</title>
+        <title>Grupo1 PastelerÃ­a San TallarÃ­n</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Bootstrap icons-->
@@ -27,20 +27,19 @@
     </head>
     <body>
         <!-- Navigation-->
-        
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container px-4 px-lg-5">
                 <a class="navbar-brand" href="./index.jsp">
                     <img src="images/logo-1.png" width="95" height="95" >
                 </a>
-                <!--a class="navbar-brand" href="#!">Pastelería San Tallarín</a-->
+                <!--a class="navbar-brand" href="#!">PastelerÃ­a San TallarÃ­n</a-->
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
                         <li class="nav-item"><a class="nav-link" aria-current="page" href="#!">Nosotros</a></li>
                         <li class="nav-item"><a class="nav-link" aria-current="page" href="./Productos.jsp">Productos</a></li>                        
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Categorías</a>
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">CategorÃ­as</a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <a class="dropdown-item" href="#!">Prepizzas</a>
                                 <a class="dropdown-item" href="#!">Platos Elaborados</a>
@@ -63,6 +62,7 @@ s                </div>
             </div>
         </nav>
         <Header>
+        </Header>
         <!-- Section-->
         <main>
 			<input type="hidden" id="status" value="<%= request.getAttribute("status") %>">        
@@ -76,7 +76,7 @@ s                </div>
                   <div id="emailHelp" class="form-text"></div>
                 </div>
                 <div class="mb-3">
-                  <label for="Password" class="form-label">Contraseña</label>
+                  <label for="Password" class="form-label">ContraseÃ±a</label>
                   <input type="password" class="form-control" id="Password" name="Password" >
                 </div>
                 <div class="mb-3 form-check">
@@ -98,15 +98,15 @@ s                </div>
                           <input id="apellido" name="apellido" type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
                         </div>
                       </div>
-                      <p id="valnombreapellido" style="color:red"> Nombre o Apellido no pueden ser vacíos</p>
+                      <p id="valnombreapellido" style="color:red"> Nombre o Apellido no pueden ser vacÃ­os</p>
                     <!--br-->
                   <label for="email" class="form-label">Email</label>
                   <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp">
                   <p id="valemail" style="color:red"> Debe ingresar un email</p>
                   <div id="emailHelp" class="form-text"></div>
-                    </div>
+                </div>
                 <div class="mb-4">
-                  <label for="password" class="form-label">Contraseña</label>
+                  <label for="password" class="form-label">ContraseÃ±a</label>
                   <input type="password" class="form-control" id="password" name="password" >
                   <p id="valpassword" style="color:red"> Debe ingresar una password</p>
                 </div>
@@ -114,6 +114,7 @@ s                </div>
                   <input type="checkbox" class="form-check-input" id="novedades">
                   <label class="form-check-label" for="novedades">Deseo recibir ofertas y novedades</label>
                 </div>
+                 <div>
                 <button type="submit" class="btn btn-primary">Registrarme</button>
                 </div>  
             </form>
@@ -170,7 +171,7 @@ s                </div>
                       <!--Grid column-->
                       <div class="col-auto">
                       <p class="pt-2">
-                          <strong>Suscríbase a nuestro newsletter</strong>
+                          <strong>SuscrÃ­base a nuestro newsletter</strong>
                       </p>
                       </div>
                       <!--Grid column-->
@@ -180,7 +181,7 @@ s                </div>
                       <!-- Email input -->
                       <div class="form-outline form-white mb-4">
                           <input type="email" id="form5Example21" class="form-control" />
-                          <label class="form-label" for="form5Example21">Dirección de mail</label>
+                          <label class="form-label" for="form5Example21">DirecciÃ³n de mail</label>
                       </div>
                       </div>
                       <!--Grid column-->
@@ -202,7 +203,7 @@ s                </div>
               <!-- Section: Text -->
               <section class="mb-4">
                   <p>
-                  Tenemos la mejor elaboración en pastas y comidas caseras. Horario de Atención Lunes a Viernes de 9 a 19hs. Sábados de 9:30 a 15:00hs.
+                  Tenemos la mejor elaboraciÃ³n en pastas y comidas caseras. Horario de AtenciÃ³n Lunes a Viernes de 9 a 19hs. SÃ¡bados de 9:30 a 15:00hs.
                   </p>
               </section>
               <!-- Section: Text -->
@@ -278,7 +279,7 @@ s                </div>
           
               <!-- Copyright -->
               <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-              © 2022 Copyright:
+              Â© 2022 Copyright:
               <a class="text-white" href="#">Grupo Uno Codo a Codo</a>
               </div>
               <!-- Copyright -->
