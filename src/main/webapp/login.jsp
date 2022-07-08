@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Grupo1 Pastelería San Tallarín</title>
+        <title>Grupo1 Pastelerï¿½a San Tallarï¿½n</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Bootstrap icons-->
@@ -32,14 +32,14 @@
                 <a class="navbar-brand" href="./index.jsp">
                     <img src="images/logo-1.png" width="95" height="95" >
                 </a>
-                <!--a class="navbar-brand" href="#!">Pastelería San Tallarín</a-->
+                <!--a class="navbar-brand" href="#!">Pastelerï¿½a San Tallarï¿½n</a-->
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
                         <li class="nav-item"><a class="nav-link" aria-current="page" href="#!">Nosotros</a></li>
                         <li class="nav-item"><a class="nav-link" aria-current="page" href="./Productos.jsp">Productos</a></li>                        
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Categorías</a>
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Categorï¿½as</a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <a class="dropdown-item" href="#!">Prepizzas</a>
                                 <a class="dropdown-item" href="#!">Platos Elaborados</a>
@@ -58,7 +58,7 @@
                             <span class="badge bg-dark text-white ms-1 rounded-pill">2</span>
                         </button>
                     </form>
-s                </div>
+                </div>
             </div>
         </nav>
         <Header>
@@ -76,7 +76,7 @@ s                </div>
                   <div id="emailHelp" class="form-text"></div>
                 </div>
                 <div class="mb-3">
-                  <label for="Password" class="form-label">Contraseña</label>
+                  <label for="Password" class="form-label">Contraseï¿½a</label>
                   <input type="password" class="form-control" id="Password" name="Password" >
                 </div>
                 <div class="mb-3 form-check">
@@ -98,7 +98,7 @@ s                </div>
                           <input id="apellido" name="apellido" type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
                         </div>
                       </div>
-                      <p id="valnombreapellido" style="color:red"> Nombre o Apellido no pueden ser vacíos</p>
+                      <p id="valnombreapellido" style="color:red"> Nombre o Apellido no pueden ser vacï¿½os</p>
                     <!--br-->
                   <label for="email" class="form-label">Email</label>
                   <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp">
@@ -106,7 +106,7 @@ s                </div>
                   <div id="emailHelp" class="form-text"></div>
                 </div>
                 <div class="mb-4">
-                  <label for="password" class="form-label">Contraseña</label>
+                  <label for="password" class="form-label">Contraseï¿½a</label>
                   <input type="password" class="form-control" id="password" name="password" >
                   <p id="valpassword" style="color:red"> Debe ingresar una password</p>
                 </div>
@@ -171,7 +171,7 @@ s                </div>
                       <!--Grid column-->
                       <div class="col-auto">
                       <p class="pt-2">
-                          <strong>Suscríbase a nuestro newsletter</strong>
+                          <strong>Suscrï¿½base a nuestro newsletter</strong>
                       </p>
                       </div>
                       <!--Grid column-->
@@ -181,7 +181,7 @@ s                </div>
                       <!-- Email input -->
                       <div class="form-outline form-white mb-4">
                           <input type="email" id="form5Example21" class="form-control" />
-                          <label class="form-label" for="form5Example21">Dirección de mail</label>
+                          <label class="form-label" for="form5Example21">Direcciï¿½n de mail</label>
                       </div>
                       </div>
                       <!--Grid column-->
@@ -203,7 +203,7 @@ s                </div>
               <!-- Section: Text -->
               <section class="mb-4">
                   <p>
-                  Tenemos la mejor elaboración en pastas y comidas caseras. Horario de Atención Lunes a Viernes de 9 a 19hs. Sábados de 9:30 a 15:00hs.
+                  Tenemos la mejor elaboraciï¿½n en pastas y comidas caseras. Horario de Atenciï¿½n Lunes a Viernes de 9 a 19hs. Sï¿½bados de 9:30 a 15:00hs.
                   </p>
               </section>
               <!-- Section: Text -->
@@ -279,7 +279,7 @@ s                </div>
           
               <!-- Copyright -->
               <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-              © 2022 Copyright:
+              ï¿½ 2022 Copyright:
               <a class="text-white" href="#">Grupo Uno Codo a Codo</a>
               </div>
               <!-- Copyright -->
