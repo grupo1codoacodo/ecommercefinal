@@ -35,15 +35,15 @@ public class Login extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		String uname = request.getParameter("username");
-		String upwd = request.getParameter("password");
+		String upwd = request.getParameter("Password");
 		HttpSession session = request.getSession();
 		RequestDispatcher disp = null;
 		
 		
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/comision_22030?useSSL=false", "root", "12345678");
-			final String QUERY = "select * from users where name = ? and pass = ?";
+			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/ecommerce?allowPublicKeyRetrieval=true&useSSL=false", "ecommerce", "12345678");
+			final String QUERY = "select * from usuarios where email = ? and password = ?";
 			PreparedStatement ps = con.prepareStatement(QUERY);
 			ps.setString(1, uname);
 			ps.setString(2, upwd);
