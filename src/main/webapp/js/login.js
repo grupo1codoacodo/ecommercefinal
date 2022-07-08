@@ -49,8 +49,9 @@ function registracion(){
     console.log(user.nombre);
     // Valida que se ingrese nombre y apellido
     if (validarDatosUsuario(user) == true){
-        user.registrarUsuario();    
-        alert ("el usuario fue registrado exitosamente");
+       // user.registrarUsuario();    
+        //alert ("el usuario fue registrado exitosamente");
+        return true;
     }
 }
 
@@ -64,9 +65,15 @@ document.getElementById("valpassword").style.visibility="hidden";
 const formulario= document.getElementById ("idlogin");
 // Cheuqea Usuario y Clave
 var status = document.getElementById("status").value;
+
 if (status == "failed") {
 	alert("Wrong Username or Password");
 }
+else if (status == "failedreg"){
+	alert("Fallo la registracion");
+}
+
+
 /*
 // FUNCION DEL EVENTO SUBMIT CON JS
 formulario.addEventListener("submit", (evento) => {

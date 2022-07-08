@@ -86,28 +86,28 @@ s                </div>
                 <button type="submit" class="btn btn-primary">Ingresar</button>
             </form>
                 <br><br>
-            <form onsubmit="registracion()">  
+            <form action="register" method="post" onsubmit="registracion()">  
                 <div class="mb-4">
                     <h4>Registracion</h4>
                     <br>
                     <div class="row">
                         <div class="col">
-                          <input id="nombre" type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+                          <input id="nombre" name="nombres" type="text" class="form-control" placeholder="Nombre" aria-label="First name">
                         </div>
                         <div class="col">
-                          <input id="apellido" type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+                          <input id="apellido" name="apellido" type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
                         </div>
                       </div>
                       <p id="valnombreapellido" style="color:red"> Nombre o Apellido no pueden ser vacíos</p>
                     <!--br-->
                   <label for="email" class="form-label">Email</label>
-                  <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                  <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp">
                   <p id="valemail" style="color:red"> Debe ingresar un email</p>
                   <div id="emailHelp" class="form-text"></div>
                     </div>
                 <div class="mb-4">
                   <label for="password" class="form-label">Contraseña</label>
-                  <input type="password" class="form-control" id="password">
+                  <input type="password" class="form-control" id="password" name="password" >
                   <p id="valpassword" style="color:red"> Debe ingresar una password</p>
                 </div>
                 <div class="mb-4 form-check">
