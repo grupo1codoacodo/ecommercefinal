@@ -27,7 +27,6 @@
     </head>
     <body>
         <!-- Navigation-->
-        
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container px-4 px-lg-5">
                 <a class="navbar-brand" href="./index.jsp">
@@ -63,6 +62,7 @@ s                </div>
             </div>
         </nav>
         <Header>
+        </Header>
         <!-- Section-->
         <main>
 			<input type="hidden" id="status" value="<%= request.getAttribute("status") %>">        
@@ -104,7 +104,7 @@ s                </div>
                   <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp">
                   <p id="valemail" style="color:red"> Debe ingresar un email</p>
                   <div id="emailHelp" class="form-text"></div>
-                    </div>
+                </div>
                 <div class="mb-4">
                   <label for="password" class="form-label">Contraseña</label>
                   <input type="password" class="form-control" id="password" name="password" >
@@ -114,6 +114,7 @@ s                </div>
                   <input type="checkbox" class="form-check-input" id="novedades">
                   <label class="form-check-label" for="novedades">Deseo recibir ofertas y novedades</label>
                 </div>
+                 <div>
                 <button type="submit" class="btn btn-primary">Registrarme</button>
                 </div>  
             </form>
