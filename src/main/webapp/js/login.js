@@ -62,7 +62,12 @@ document.getElementById("valpassword").style.visibility="hidden";
 
 // Agrega una funcion al evento submit
 const formulario= document.getElementById ("idlogin");
-
+// Cheuqea Usuario y Clave
+var status = document.getElementById("status").value;
+if (status == "failed") {
+	alert("Wrong Username or Password");
+}
+/*
 // FUNCION DEL EVENTO SUBMIT CON JS
 formulario.addEventListener("submit", (evento) => {
      // SIEMPRE QUE EJECUTAMOS UN EVENTO DESDE JS CON HTML
@@ -76,3 +81,4 @@ formulario.addEventListener("submit", (evento) => {
         alert ("El usuario con ese email no existe o la password no es válida");
     }
 });
+*/
