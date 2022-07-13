@@ -13,8 +13,8 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
 
+import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.Connection;
@@ -39,7 +39,9 @@ public class Registration extends HttpServlet {
 		String uemail = request.getParameter("email");
 		String upwd = request.getParameter("password");
 		RequestDispatcher disp = null;
+
 		HttpSession session = request.getSession();
+
 		Connection con = null;
 
 		
@@ -57,6 +59,7 @@ public class Registration extends HttpServlet {
 			disp = request.getRequestDispatcher("index.jsp");
 			if (rowCount > 0) {
 				request.setAttribute("status", "success");
+
 				session.setAttribute("name", uemail);
 			} else {
 				request.setAttribute("status", "failedreg");
