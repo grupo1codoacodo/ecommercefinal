@@ -11,7 +11,8 @@
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
                         <li class="nav-item"><a class="nav-link" aria-current="page" href="#!">Nosotros</a></li>
                         <li class="nav-item"><a class="nav-link" aria-current="page" href="./Productos.jsp">Productos</a></li>                        
-                        <li class="nav-item"><a class="nav-link" aria-current="page" href="https://tp3grupo1codoacodo.netlify.app/#mediosdepago">Medios de Pago </a></li>
+                        <!-- li> class="nav-item"><a class="nav-link" aria-current="page" href="https://tp3grupo1codoacodo.netlify.app/#mediosdepago">Medios de Pago </a></li-->
+  						<li class="nav-item"><a class="nav-link" aria-current="page" href="./carrito.jsp">Carrito </a></li>                        
                         <% 
                         	if(session.getAttribute("name") == null){ %>
                         		<li class="nav-item"><a class="nav-link" aria-current="page" href="./login.jsp">Login</a></li>
