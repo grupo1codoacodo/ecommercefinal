@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Grupo1 Pastelería San Tallarín</title>
+        <title>Grupo1 PastelerÃ­a San TallarÃ­n</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Bootstrap icons-->
@@ -32,7 +32,7 @@
             <!--div class="container px-4 px-lg-5 my-5">
                 <div class="text-center text-white">
                     <h1 class="display-4 fw-bolder">Compre en nuestra casa de Pastas</h1>
-                    <p class="lead fw-normal text-white-50 mb-0">Lo mejor en Pastelería</p>
+                    <p class="lead fw-normal text-white-50 mb-0">Lo mejor en PastelerÃ­a</p>
                 </div>
             </div-->
                
@@ -82,7 +82,7 @@
                         <br>
                 <div class="row d-flex justify-content-center">
                     <div class="col-md-6 mb-6">
-                    <label for="inputAddress" class="form-label">Dirección</label>
+                    <label for="inputAddress" class="form-label">DirecciÃ³n</label>
                     <input type="text" class="form-control" id="inputAddress" placeholder="Calle Numero" required>
                         </div>
                     <div class="col-md-6 mb-6">
@@ -101,7 +101,7 @@
                                 <option>Provincia de Buenos Aires</option>
                                 <option>Entre Rios</option>
                                 <option>Santa Fe</option>
-                                <option>Córdoba</option>
+                                <option>CÃ³rdoba</option>
                                 </select>
                             </div>
                             <div class="col-md-4 mb-6">
@@ -111,11 +111,11 @@
                             </div>
                     <div class="row d-flex justify-content-center">
                     <div class="col-md-6 mb-6">
-                    <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                    <label for="exampleInputPassword1" class="form-label">ContraseÃ±a</label>
                     <input type="password" class="form-control" id="exampleInputPassword1" required>
                     </div>
                     <div class="col-md-6 mb-6">
-                        <label for="exampleInputPassword1" class="form-label">Vuelva a ingresar la Contraseña</label>
+                        <label for="exampleInputPassword1" class="form-label">Vuelva a ingresar la ContraseÃ±a</label>
                         <input type="password" class="form-control" id="exampleInputPassword1" required>
                     </div>
                     </div>
@@ -140,7 +140,7 @@
           <!--footer class="py-5 bg-dark">
               <div class="container"><p class="m-0 text-center text-white">Copyright &copy; 2022 - Grupo 1 CodoACodo</p></div>
       </footer-->
-  		<%@include file=footer.jsp" %>
+  		<%@include file="footer.jsp" %>
           <script src="js/scripts.js"></script>
       </body>
   </html>
