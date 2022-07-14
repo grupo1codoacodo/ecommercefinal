@@ -5,7 +5,7 @@
                 <a class="navbar-brand" href="./index.jsp">
                     <img src="images/logo-1.png" width="95" height="95" >
                 </a>
-                <!--a class="navbar-brand" href="#!">PastelerÃ­a San TallarÃ­n</a-->
+                <!--a class="navbar-brand" href="#!">Pastelería San Tallarín</a-->
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
