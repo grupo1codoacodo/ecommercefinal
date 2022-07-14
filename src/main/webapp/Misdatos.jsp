@@ -140,7 +140,7 @@
           <!--footer class="py-5 bg-dark">
               <div class="container"><p class="m-0 text-center text-white">Copyright &copy; 2022 - Grupo 1 CodoACodo</p></div>
       </footer-->
-  		<%@include file=footer.jsp" %>
+  		<%@include file="footer.jsp" %>
           <script src="js/scripts.js"></script>
       </body>
   </html>
